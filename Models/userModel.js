@@ -13,6 +13,7 @@ const userSchema = new mongoose.Schema({
     required: true,
     minlength: 6,
   },
+  resetToken: String,
   createdAt: {
     type: Date,
     default: Date.now,
